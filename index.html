@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AkinOye</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c5585080da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEader section -->
+    <section class="header" id="header">
+        <div class="container">
+            <!-- navbar section -->
+            <nav>
+                <h2 class="logo"><span>A</span>kin<span>O</span>ye</h2>
+                <ul class="sidemenu">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-burger" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi ,I am <strong>Akintunde,</strong><br><span>A freelancer</span></h1>
+                <p>Software Developer / Cyber Security Analyst</p>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile2.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am Akintunde Oyelakin, born and bred in Nigeria,
+                         An Entrepreneur. Some say I am talented but I prefer
+                          to relate to blessed and hard working. I am up for any
+                           task and I am an efficient problem solver.  
+                           I am dedicated to my second love => Coding. For fun 
+                           I enjoy gaming, reading, soccer, and traveling when given 
+                           the chance. I see coding not as a profession but a way of life, 
+                           a way of creating and a way of 
+                           evolving into the future like never before.</p>
+
+                         <div class="tab-title">
+                            <p class="tab-links active" onclick="opentab('skills')"><strong>Skills</strong></p>
+                            <p class="tab-links" onclick="opentab('experience')"> <strong>Experience</strong> </p>
+                            <p class="tab-links" onclick="opentab('education')"><strong>Education</strong></p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills"> 
+                            <ul>
+                                <li><span> <strong>Cyber Security</strong></span><br>With a relentless commitment to fortifying digital security, 
+                                    I am an ethical hacker specializing in identifying and mitigating vulnerabilities within computer systems
+                                     and networks. Armed with 1 year of experience, I conduct authorized penetration testing to proactively 
+                                     assess and enhance the cybersecurity posture of organizations. Proficient in leveraging cutting-edge 
+                                     tools and techniques, I prioritize ethical and responsible hacking practices to safeguard against
+                                      potential threats. A collaborator and advocate for robust cybersecurity measures, I play a vital
+                                       role in ensuring the confidentiality 
+                                    and integrity of sensitive information. Dedicated to 
+                                    staying ahead of evolving cyber threats, I contribute actively 
+                                    to the ongoing development of effective cybersecurity strategies.</li>
+                                <li><span> <strong>Web Development</strong></span><br>I code responsive and interactive
+                                     web pages using HTML5, CSS3 and JavaScript, ensuring cross-browser 
+                                     compatibility and accessibility.  I also have experience with front-end 
+                                     frameworks such as React.js, Next.js, Node.js, Bootstrap and Tailwind.  I ensure that websites
+                                      are optimized for different devices and screen sizes, using responsive 
+                                      design techniques and media queries, so that the website looks great on desktops,
+                                       tablets, and mobile devices. I work closely with clients, designers, 
+                                       and other stakeholders to understand project requirements, provide regular updates,
+                                     and ensure that the project is completed successfully and on time.</li>
+                                <li><span>App Development</span><br>Mobile App  Development</li>
+                            </ul>
+
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2017</span><br>Owner - Amazing Grace Motor Company (PTY) LTD</li>
+                                <li><span>2020 - current </span><br>Owner - Isabell Investments (PTY) LTD</li>
+                                <li><span><iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2845076" style='border:none; height: 120px;width: 330px;'></iframe></span></li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022- 2023</span><br>Meta Front End Developer Professional Certificate</li>
+                                <li><span>2022-current</span><br>IBM FullStack software Developer Professional Certificate</li>
+                                <li><span>2023-current</span><br>IBM Cyber Security Professional Certificate</li>
+                                <li><span>2023-current</span><br>Cisco Junior Security Analyst Certificate</li>
+                                <li><span><iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2845076" style='border:none; height: 120px;width: 330px;'></iframe></span></li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-building-shield"></i>
+                    <h2>Security Analyst</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, omnis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, omnis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, omnis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>News App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- contact form -->
+
+    <section class="contact" id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope-circle-check"></i>supports@akinoye.tech</p>
+                    <p><i class="fa-solid fa-phone"></i>0815697675</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Phone Number" name="phone">
+                        <input type="email" placeholder="Email Address" name="email" required>
+                        <textarea name="message" rows="6" cols="20" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                    <span class="msg"></span>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyyright <i class="fa-solid fa-copyright"></i> reserved! Made by me</p>
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
