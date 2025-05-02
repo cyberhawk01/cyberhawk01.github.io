@@ -113,8 +113,8 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border: 15px;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 60%;
 }
 
 .about-col-2{
