@@ -1,7 +1,10 @@
-var tablinks = document.getElementsByClassName("tab-links")
-var tabcontents = document.getElementsByClassName("tab-contents")
+let tablinks = document.getElementsByClassName("tab-links")
+let tabcontents = document.getElementsByClassName("tab-contents")
 
-var sidemenu = document.querySelector(".sidemenu")
+let sidemenu = document.querySelector(".sidemenu")
+
+let date = new Date().getFullYear();
+document.querySelector(".year").innerHTML = date;
 
 
 function opentab(tabname) {

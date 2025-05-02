@@ -40,6 +40,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-shadow: 10px 10px 15px var(--title);
+    border-radius: 10px;
 }
 
 .logo{
@@ -60,6 +62,7 @@ nav ul li a{
     text-decoration: none;
     font-size: var(--small-font);
     position: relative;
+    
 }
 nav ul li a::after{
     content: "";
@@ -110,6 +113,8 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border: 15px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
 }
 
 .about-col-2{
@@ -439,7 +444,7 @@ nav .fa-solid{
     }
 
     nav ul{
-        background: var(--primary);
+        background: var(--black);
         position: fixed;
         top: 0;
         right: -200px;
@@ -535,6 +540,10 @@ nav .fa-solid{
     nav ul li a:hover::after{
         width: 70%;
     
+    }
+    .iframe{
+        width: auto;
+        height: 120px;
     }
 
 }
